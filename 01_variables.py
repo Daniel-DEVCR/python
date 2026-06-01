@@ -1,6 +1,6 @@
 # Variables
 
-'''
+#'''
 
 my_strvar = 'My String variable 1.0'
 print(my_strvar)
@@ -11,7 +11,8 @@ print(my_intvar)
 my_boolvar = True
 print(my_boolvar)
 
-#Concatenación de variables en un print
+# Concatenación de variables en un print
+
 print(my_boolvar, my_intvar, my_strvar)
 print("Este es el valor de:", my_boolvar)
 
@@ -26,7 +27,7 @@ int_to_spr_var = str(my_intvar)
 print(int_to_spr_var)
 print(type(int_to_spr_var))
 
-print(len(my_strvar))
+print(len(my_strvar)) # retrives the number of digits of the print item
 
 # Variables en una sola line (no deberia usarse asi)
 
@@ -54,10 +55,11 @@ print("me llamo", name, surname, "tengo", age, "y mi alias es", alias)
 name = 26
 age = 'Daniel'
 print(name, age)
+
 # Python printeara las variables name y age como ultima vez definidas (name: 26, age: Daniel)
 # A pesar de que ya habian sido definidas antes 
 
-'''
+#'''
 
 address: str = 'mi direccion'
 address = 32
